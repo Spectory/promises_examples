@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.js"></script>
+  <script src="app.js"></script>
+  <script src="app_ctl.js"></script>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+</head>
+  <body ng-app="app">
+      <div ng-controller='homeCtl'>
+      <h1>TDD template</h1>
+      
+      <div ng-click='callbackExample()'>callback example</div>
+      <br>
+      <br>
+      <div ng-click='promiseBadExample()'>promiseBadExample</div>
+      <br>
+      <br>
+      <div ng-click='promiseGoodExample()'>promiseGoodExample</div>
+      <br>
+      <br>
+      <div ng-click='promiseBetterExample()'>promiseBetterExample</div>
+      <br>
+      <br>
+      <div ng-click='promiseQueueExample()'>promise Q example</div>
+      <br>
+      <br>
+
+      <h3>recurses:</h3>
+      <p>code is avalible at the tddTemplate project, under pormises-example branch.</p>
+      <a href="http://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html?utm_source=javascriptweekly&utm_medium=email">We have a problem with promises</a>
+      <br>
+      <a href="https://www.youtube.com/watch?v=33kl0iQByME">$q</a>
+      <br>
+      <a href="https://github.com/petkaantonov/bluebird/wiki/Promise-anti-patterns#the-deferred-anti-pattern">The Deferred anti-pattern</a>
+      
+    </div>
+  </body>
+</html>
